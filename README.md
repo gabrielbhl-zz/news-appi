@@ -1,7 +1,7 @@
 # client
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Sign up at [News API](https://newsapi.org/), copy your API key.
+Create a .env file in the root directory and past your API key as NA_KEY=<YOUR_API_KEY>
 
 ## Prerequisites
 
@@ -11,6 +11,7 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/) (with npm)
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
+* [Firebase](https://firebase.google.com/)
 
 ## Installation
 
@@ -46,23 +47,12 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
-
 * `$ npm install -g firebase-tools`
 * `$ ember build --prod`
 * `$ firebase login`
-* $ `firebase init`
+* `$ firebase init`
 
-Questions and answers:
+### Questions and answers:
 
 What Firebase CLI features do you want to setup for this folder? ==> Hosting
 
@@ -77,3 +67,13 @@ Configure as a single-page app (rewrite all urls to /index.html)? ==> Answer: YE
 File dist/index.html already exists. Overwrite? ==> NO!!! Accept the default NO.
 
 * `$ firebase deploy`
+
+
+## Further Reading / Useful Links
+
+* [ember.js](https://emberjs.com/)
+* [ember-cli](https://ember-cli.com/)
+* Development Browser Extensions
+  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
