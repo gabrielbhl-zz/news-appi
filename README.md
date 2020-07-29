@@ -1,7 +1,8 @@
 # client
 
 Sign up at [News API](https://newsapi.org/), copy your API key.
-Create a .env file in the root directory and past your API key as NA_KEY=<YOUR_API_KEY>
+
+Create a `.env` file in the root directory and past your API key as `NA_KEY=<YOUR_API_KEY>`
 
 ## Prerequisites
 
